@@ -1,3 +1,6 @@
-resolver: nightly-2019-02-14
+resolver: lts-13.18
 packages:
 - .
+extra-deps:
+- git: https://github.com/robbiemcmichael/github
+  commit: 6f029720d5f98bd0206ab2101ba6a62d807e97b7
