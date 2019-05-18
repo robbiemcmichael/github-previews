@@ -47,8 +47,11 @@ library
     GitHub.Previews.Auth
     GitHub.Previews.Data
     GitHub.Previews.Data.Apps
+    GitHub.Previews.Data.CheckRuns
+    GitHub.Previews.Data.CheckSuites
     GitHub.Previews.Data.Webhooks
     GitHub.Previews.Endpoints.Apps
+    GitHub.Previews.Endpoints.Checks.CheckRuns
 
 source-repository head
   type:     git
