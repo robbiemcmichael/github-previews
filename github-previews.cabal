@@ -1,15 +1,15 @@
 name:                github-previews
 version:             0.1.0.0
 synopsis:            Library for GitHub API previews
-description:         Support for <https://developer.github.com/v3/previews/ API
-                     previews> from the GitHub REST API v3. API previews are
-                     not stable and may change without notice during the review
-                     period.
-                     .
-                     This library is intended to complement the
-                     <http://hackage.haskell.org/package/github github>
-                     library. As the API previews are promoted to the official
-                     GitHub API they should be moved to the github library.
+description:
+  A library for <https://developer.github.com/v3/previews/ API previews> from
+  GitHub's REST API v3. A word of caution: GitHub have stated that API previews
+  are not stable and may change without notice during the review period.
+  .
+  This is intended to supplement the
+  <http://hackage.haskell.org/package/github github> library and should follow
+  the standards set there wherever possible. As the API previews are promoted
+  to the official GitHub API they should be moved to the github library.
 homepage:            https://github.com/robbiemcmichael/github-previews
 license:             BSD3
 license-file:        LICENSE
