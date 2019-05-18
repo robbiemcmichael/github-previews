@@ -1,6 +1,7 @@
-module GitHub.Previews.Endpoints.Apps
-    ( createAccessToken
-    , createAccessTokenR
+module GitHub.Previews.Endpoints.Apps (
+    createAccessToken,
+    createAccessTokenR,
+    module GitHub.Previews.Data,
     ) where
 
 import GitHub.Internal.Prelude
