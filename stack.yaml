@@ -1,6 +1,6 @@
-resolver: lts-13.18
+resolver: lts-14.16
 packages:
 - .
 extra-deps:
-- git: https://github.com/robbiemcmichael/github
-  commit: 6f029720d5f98bd0206ab2101ba6a62d807e97b7
+- github-0.24@sha256:4bf5a06289d36f78bf347b6a4f9906f659be7335cde78386a6c95568714a730b
+- binary-instances-1@sha256:b17565598b8df3241f9b46fa8e3a3368ecc8e3f2eb175d7c28f319042a6f5c79

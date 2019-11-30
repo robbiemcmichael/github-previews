@@ -26,14 +26,14 @@ library
   hs-source-dirs:      src
 
   build-depends:
-      base        >= 4.7      && < 5
-    , aeson       >= 1.4.0.0  && < 1.5
-    , bytestring  >= 0.10.4.0 && < 0.11
-    , github      >= 0.21     && < 0.22
-    , http-client >= 0.5.12   && < 0.7
-    , mtl         >= 2.1.3.1  && < 2.2  || >= 2.2.1 && < 2.3
-    , tagged
-    , text        >= 1.2.0.6  && < 1.3
+      base        >= 4.7
+    , aeson       >= 1.4.0.0
+    , bytestring  >= 0.10.4.0
+    , github      >= 0.24 && < 0.25
+    , http-client >= 0.5.12
+    , mtl         >= 2.2.1
+    , tagged      >= 0.8.5
+    , text        >= 1.2.0.6
 
   default-extensions:
     DataKinds
@@ -42,6 +42,11 @@ library
     OverloadedStrings
     ScopedTypeVariables
 
+  other-extensions:
+    RecordWildCards
+    FlexibleInstances
+    MultiParamTypeClasses
+
   exposed-modules:
     GitHub.Previews
     GitHub.Previews.Auth
@@ -49,6 +54,7 @@ library
     GitHub.Previews.Data.Apps
     GitHub.Previews.Data.CheckRuns
     GitHub.Previews.Data.CheckSuites
+    GitHub.Previews.Data.Request
     GitHub.Previews.Data.Webhooks
     GitHub.Previews.Endpoints.Apps
     GitHub.Previews.Endpoints.Checks.CheckRuns

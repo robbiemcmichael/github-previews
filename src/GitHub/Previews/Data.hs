@@ -12,6 +12,8 @@ module GitHub.Previews.Data (
     module GitHub.Previews.Data.Apps,
     module GitHub.Previews.Data.CheckRuns,
     module GitHub.Previews.Data.CheckSuites,
+    module GitHub.Previews.Data.Request,
+    module GitHub.Previews.Data.Webhooks,
     ) where
 
 import GitHub.Internal.Prelude
@@ -24,6 +26,8 @@ import GitHub.Previews.Auth
 import GitHub.Previews.Data.Apps
 import GitHub.Previews.Data.CheckRuns
 import GitHub.Previews.Data.CheckSuites
+import GitHub.Previews.Data.Request
+import GitHub.Previews.Data.Webhooks
 
 mkAppId :: Int -> Id App
 mkAppId = Id
