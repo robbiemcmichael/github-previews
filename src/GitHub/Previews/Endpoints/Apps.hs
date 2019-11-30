@@ -19,6 +19,6 @@ createAccessToken auth installation =
 
 -- | Create an access token for a given installation.
 -- See <https://developer.github.com/v3/apps/#create-a-new-installation-token>
-createAccessTokenR :: Id Installation -> GenRequest 'MtMachineManPreview 'RW AccessToken
+createAccessTokenR :: Id Installation -> GenRequest ('MtPreview MtMachineMan) 'RW AccessToken
 createAccessTokenR installation =
     Command Post ["app", "installations", toPathPart installation, "access_tokens"] mempty
