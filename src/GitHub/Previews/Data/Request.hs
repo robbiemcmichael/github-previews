@@ -7,7 +7,6 @@ import GitHub.Request
 
 import Data.Tagged (Tagged (..))
 
-data PreviewMediaType
 data MtWyandotte       -- ^ @application/vnd.github.wyandotte-preview+json@ <https://developer.github.com/v3/previews/#migrations>
 data MtBarredRock      -- ^ @application/vnd.github.barred-rock-preview+json@ <https://developer.github.com/v3/previews/#source-import>
 data MtAntMan          -- ^ @application/vnd.github.ant-man-preview+json@ <https://developer.github.com/v3/previews/#enhanced-deployments>

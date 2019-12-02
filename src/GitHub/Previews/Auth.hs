@@ -10,9 +10,6 @@ import GitHub.Auth (AuthMethod (..))
 import qualified Data.ByteString     as BS
 import qualified Network.HTTP.Client as HTTP
 
--- | Custom API endpoint without trailing slash
-type Endpoint = Text
-
 type Token = BS.ByteString
 
 -- | The Github App auth data type

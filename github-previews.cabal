@@ -31,7 +31,6 @@ library
     , bytestring  >= 0.10.4.0
     , github      >= 0.24 && < 0.25
     , http-client >= 0.5.12
-    , mtl         >= 2.2.1
     , tagged      >= 0.8.5
     , text        >= 1.2.0.6
 
